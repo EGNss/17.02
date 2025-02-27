@@ -1,0 +1,21 @@
+.card{
+    height: 275px;
+    width: 200px;
+    background-image: radial-gradient(#6e4aff, #dd0fcc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* выравнивание по центру */
+    text-align: center;  /* выравнивание текста по центру */
+    
+}
+
+.img img{
+    width: 200px;
+    border-radius: 50px;
+}
+
+.price{
+    align-self: flex-end; /* выравниваем только этот блок вправо  */
+    margin-right: 20px; /* отступ справа для красоты */
+    margin-top: 10px; /* отступ сверху */
+}
